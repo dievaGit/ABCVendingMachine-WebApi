@@ -80,6 +80,9 @@ namespace ABCVendingMachine.Services.EventHandlers
 
                 }
 
+                order.TotalPrice = OrderTotalPrice;
+                _context.Orders.Update(order);
+
                 await _context.SaveChangesAsync();
 
                 result = true;

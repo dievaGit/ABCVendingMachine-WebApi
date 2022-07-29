@@ -28,6 +28,7 @@ namespace ABCVendingMachine.Services.Queries
                               OrderId = o.OrderId,
                               VendingMachineId = o.VendingMachineId,
                               WarehouseId = o.WarehouseId,
+                              TotalPrice = o.TotalPrice,
                               Items = (from od in _context.OrderProductDetails
                                        join p in _context.Products on od.ProductId equals p.ProductId
                                        where od.OrderId == o.OrderId && od.IsDeleted == 0

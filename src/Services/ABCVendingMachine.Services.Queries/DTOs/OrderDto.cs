@@ -12,5 +12,6 @@ namespace ABCVendingMachine.Services.Queries.DTOs
         public IEnumerable<OrderProductDetailDto> Items { get; set; } = new List<OrderProductDetailDto>();
         public DateTime CreatedAt { get; set; }
         public byte IsDeleted { get; set; }
+        public decimal TotalPrice { get; set; }
     } 
 }
