@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.API", "01.API", "{6A11CAF5-6553-43B0-9A02-CCCC793985E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Services", "02.Services", "{E94AC083-4E21-4594-9F90-0E68EF70DCFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Models", "03.Models", "{D841210B-5696-479D-98CD-7E65F93D6EC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.DataAccess", "04.DataAccess", "{68A5C35B-E99C-4AAC-8DE3-CDA4D97C6A7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.Tests", "05.Tests", "{AB37A0F3-D6E1-485A-B867-40EE5C1B54FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCVendingMachine.Api", "src\API\ABCVendingMachine.Api\ABCVendingMachine.Api.csproj", "{42AF64AC-0C9F-4028-9DC1-C41D24789F77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCVendingMachine.Services.EventHandlers", "src\Services\ABCVendingMachine.Services.EventHandlers\ABCVendingMachine.Services.EventHandlers.csproj", "{AAC4B26B-D993-475E-B4F8-743615AB5557}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCVendingMachine.Services.Queries", "src\Services\ABCVendingMachine.Services.Queries\ABCVendingMachine.Services.Queries.csproj", "{E7467410-C39B-4D6E-B872-EFDB4EBFFE5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCVendingMachine.Models", "src\Models\ABCVendingMachine.Models\ABCVendingMachine.Models.csproj", "{693AD4A6-B085-469F-B757-6A9D0B935751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCVendingMachine.DataAccess", "src\DataAccess\ABCVendingMachine.DataAccess\ABCVendingMachine.DataAccess.csproj", "{51072DFF-2C90-4189-99CF-FEB477DCF4A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.Mapper", "06.Mapper", "{E7F39B35-AEA2-4B97-B5E8-2DCC02CC6FD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCVendingMachine.Mapper", "src\Mapper\ABCVendingMachine.Mapper\ABCVendingMachine.Mapper.csproj", "{34759338-B7BA-49E1-AB83-87C2929E6621}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCVendingMachine.Tests", "src\Tests\ABCVendingMachine.Tests\ABCVendingMachine.Tests.csproj", "{3215211B-F1F2-48DD-9271-9954B909D639}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42AF64AC-0C9F-4028-9DC1-C41D24789F77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42AF64AC-0C9F-4028-9DC1-C41D24789F77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42AF64AC-0C9F-4028-9DC1-C41D24789F77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42AF64AC-0C9F-4028-9DC1-C41D24789F77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC4B26B-D993-475E-B4F8-743615AB5557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC4B26B-D993-475E-B4F8-743615AB5557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC4B26B-D993-475E-B4F8-743615AB5557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC4B26B-D993-475E-B4F8-743615AB5557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7467410-C39B-4D6E-B872-EFDB4EBFFE5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7467410-C39B-4D6E-B872-EFDB4EBFFE5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7467410-C39B-4D6E-B872-EFDB4EBFFE5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7467410-C39B-4D6E-B872-EFDB4EBFFE5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{693AD4A6-B085-469F-B757-6A9D0B935751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{693AD4A6-B085-469F-B757-6A9D0B935751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{693AD4A6-B085-469F-B757-6A9D0B935751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{693AD4A6-B085-469F-B757-6A9D0B935751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51072DFF-2C90-4189-99CF-FEB477DCF4A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51072DFF-2C90-4189-99CF-FEB477DCF4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51072DFF-2C90-4189-99CF-FEB477DCF4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51072DFF-2C90-4189-99CF-FEB477DCF4A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34759338-B7BA-49E1-AB83-87C2929E6621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34759338-B7BA-49E1-AB83-87C2929E6621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34759338-B7BA-49E1-AB83-87C2929E6621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34759338-B7BA-49E1-AB83-87C2929E6621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3215211B-F1F2-48DD-9271-9954B909D639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3215211B-F1F2-48DD-9271-9954B909D639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3215211B-F1F2-48DD-9271-9954B909D639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3215211B-F1F2-48DD-9271-9954B909D639}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42AF64AC-0C9F-4028-9DC1-C41D24789F77} = {6A11CAF5-6553-43B0-9A02-CCCC793985E9}
+		{AAC4B26B-D993-475E-B4F8-743615AB5557} = {E94AC083-4E21-4594-9F90-0E68EF70DCFE}
+		{E7467410-C39B-4D6E-B872-EFDB4EBFFE5F} = {E94AC083-4E21-4594-9F90-0E68EF70DCFE}
+		{693AD4A6-B085-469F-B757-6A9D0B935751} = {D841210B-5696-479D-98CD-7E65F93D6EC9}
+		{51072DFF-2C90-4189-99CF-FEB477DCF4A4} = {68A5C35B-E99C-4AAC-8DE3-CDA4D97C6A7C}
+		{34759338-B7BA-49E1-AB83-87C2929E6621} = {E7F39B35-AEA2-4B97-B5E8-2DCC02CC6FD5}
+		{3215211B-F1F2-48DD-9271-9954B909D639} = {AB37A0F3-D6E1-485A-B867-40EE5C1B54FF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F015FE82-DCD1-40D2-9998-B041A18ED9BB}
+	EndGlobalSection
+EndGlobal

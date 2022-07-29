@@ -1,0 +1,10 @@
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\Models\ABCVendingMachine.Models\bin\Debug\netcoreapp3.1\ABCVendingMachine.Models.deps.json
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\Models\ABCVendingMachine.Models\bin\Debug\netcoreapp3.1\ABCVendingMachine.Models.dll
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\Models\ABCVendingMachine.Models\bin\Debug\netcoreapp3.1\ABCVendingMachine.Models.pdb
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\Models\ABCVendingMachine.Models\obj\Debug\netcoreapp3.1\ABCVendingMachine.Models.csproj.AssemblyReference.cache
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\Models\ABCVendingMachine.Models\obj\Debug\netcoreapp3.1\ABCVendingMachine.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\Models\ABCVendingMachine.Models\obj\Debug\netcoreapp3.1\ABCVendingMachine.Models.AssemblyInfoInputs.cache
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\Models\ABCVendingMachine.Models\obj\Debug\netcoreapp3.1\ABCVendingMachine.Models.AssemblyInfo.cs
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\Models\ABCVendingMachine.Models\obj\Debug\netcoreapp3.1\ABCVendingMachine.Models.csproj.CoreCompileInputs.cache
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\Models\ABCVendingMachine.Models\obj\Debug\netcoreapp3.1\ABCVendingMachine.Models.dll
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\Models\ABCVendingMachine.Models\obj\Debug\netcoreapp3.1\ABCVendingMachine.Models.pdb

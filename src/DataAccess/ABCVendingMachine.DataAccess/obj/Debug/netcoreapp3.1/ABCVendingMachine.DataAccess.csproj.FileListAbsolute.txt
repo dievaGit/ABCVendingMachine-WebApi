@@ -1,0 +1,13 @@
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\DataAccess\ABCVendingMachine.DataAccess\bin\Debug\netcoreapp3.1\ABCVendingMachine.DataAccess.deps.json
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\DataAccess\ABCVendingMachine.DataAccess\bin\Debug\netcoreapp3.1\ABCVendingMachine.DataAccess.dll
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\DataAccess\ABCVendingMachine.DataAccess\bin\Debug\netcoreapp3.1\ABCVendingMachine.DataAccess.pdb
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\DataAccess\ABCVendingMachine.DataAccess\bin\Debug\netcoreapp3.1\ABCVendingMachine.Models.dll
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\DataAccess\ABCVendingMachine.DataAccess\bin\Debug\netcoreapp3.1\ABCVendingMachine.Models.pdb
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\DataAccess\ABCVendingMachine.DataAccess\obj\Debug\netcoreapp3.1\ABCVendingMachine.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\DataAccess\ABCVendingMachine.DataAccess\obj\Debug\netcoreapp3.1\ABCVendingMachine.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\DataAccess\ABCVendingMachine.DataAccess\obj\Debug\netcoreapp3.1\ABCVendingMachine.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\DataAccess\ABCVendingMachine.DataAccess\obj\Debug\netcoreapp3.1\ABCVendingMachine.DataAccess.AssemblyInfo.cs
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\DataAccess\ABCVendingMachine.DataAccess\obj\Debug\netcoreapp3.1\ABCVendingMachine.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\DataAccess\ABCVendingMachine.DataAccess\obj\Debug\netcoreapp3.1\ABCVendingMachine.DataAccess.csproj.CopyComplete
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\DataAccess\ABCVendingMachine.DataAccess\obj\Debug\netcoreapp3.1\ABCVendingMachine.DataAccess.dll
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\DataAccess\ABCVendingMachine.DataAccess\obj\Debug\netcoreapp3.1\ABCVendingMachine.DataAccess.pdb
