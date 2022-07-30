@@ -19,7 +19,7 @@ namespace ABCVendingMachine.Services.Queries
             _logger = logger;
         }
 
-        public async Task<List<WarehouseDto>> GetAllWarehouse()
+        public async Task<List<WarehouseDto>> GetAllWarehouses()
         {
             var result = (from w in _context.Warehouses
                           select new WarehouseDto

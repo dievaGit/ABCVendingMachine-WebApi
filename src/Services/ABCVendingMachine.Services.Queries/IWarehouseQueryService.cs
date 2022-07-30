@@ -8,7 +8,7 @@ namespace ABCVendingMachine.Services.Queries
 {
     public interface IWarehouseQueryService
     {
-        Task<List<WarehouseDto>> GetAllWarehouse();
+        Task<List<WarehouseDto>> GetAllWarehouses();
         Task<List<ProductWarehouseDto>> GetAllProductsWarehousesStock();
         Task<List<ProductWarehouseDto>> GetInventoryProductsWarehouse(int warehouseId);        
     }

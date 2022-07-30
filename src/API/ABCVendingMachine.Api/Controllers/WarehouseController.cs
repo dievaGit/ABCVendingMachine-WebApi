@@ -22,9 +22,9 @@ namespace ABCVendingMachine.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<WarehouseDto>>> GetAllWarehouse()
+        public async Task<ActionResult<List<WarehouseDto>>> GetAllWarehouses()
         {
-            var result = await _warehouseQueryService.GetAllWarehouse();
+            var result = await _warehouseQueryService.GetAllWarehouses();
             return await Task.FromResult(result);
         }
 

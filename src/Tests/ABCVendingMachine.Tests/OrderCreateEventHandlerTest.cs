@@ -26,13 +26,13 @@ namespace ABCVendingMachine.Tests
         }
 
         [TestMethod]
-        public async Task TryToAddNewOrder()
+        public async Task Trying_To_Add_New_Order_Should_Succeeded()
         {
+            //Arrange
             var context = ApplicationDbContextInMemory.Get();
 
             context.ProductWarehouses.Add(new ProductWarehouse
             {
-                ProductWarehouseId = 1,
                 WarehouseId = 1,
                 ProductId = 1,
                 Stock = 5,
@@ -40,40 +40,34 @@ namespace ABCVendingMachine.Tests
                 IsDeleted = 0
             });
 
+            //Act
+
             context.SaveChanges();
 
-            var action = new OrderCreateEventHandler(context, GetIlogger);          
+            var action = new OrderCreateEventHandler(context, GetIlogger);
 
-            try
+            var result = await action.Handle(new OrderCreateCommand
             {
-                var result = await action.Handle(new OrderCreateCommand
-                             {
-                                    OrderId = 1,
-                                    VendingMachineId = 1,
-                                    WarehouseId = 1,
-                                    CreatedAt = DateTime.Now,
-                                    Items = new List<DetailOrderProduct>
-                                    {
-                                        new DetailOrderProduct
-                                        {
-                                            OrderProductDetailId = 1,
-                                            ProductId = 1,
-                                            OrderId = 10,
-                                            Quantity = 1,
-                                            ProductPrice = 3
-                                        }
-                                    }
-                            }, new CancellationToken());
+                OrderId = 1,
+                VendingMachineId = 1,
+                WarehouseId = 1,
+                CreatedAt = DateTime.Now,
+                Items = new List<DetailOrderProduct>
+                        {
+                        new DetailOrderProduct
+                        {
+                            OrderProductDetailId = 1,
+                            ProductId = 1,
+                            OrderId = 10,
+                            Quantity = 1,
+                            ProductPrice = 3
+                        }                
+                }                    
+            }, new CancellationToken());
 
-                Assert.IsTrue(result);
-            }
-            catch (AggregateException ae)
-            {
-                if (ae.GetBaseException() is OutOfStockException)
-                {
-                    throw new OutOfStockException(ae.InnerException?.Message);
-                }
-            }
+            //Assert
+
+            Assert.IsTrue(result);
         }    
     }
 }

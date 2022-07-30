@@ -26,7 +26,7 @@ namespace ABCVendingMachine.Services.EventHandlers
         public async Task<bool> Handle(OrderCreateCommand message, CancellationToken cancellationToken)
         {
             var result = false;
-            decimal OrderTotalPrice = 0;
+            decimal orderTotalPrice = 0;
 
             try
             {
@@ -63,25 +63,26 @@ namespace ABCVendingMachine.Services.EventHandlers
                             IsDeleted = 0,
                         });
 
-                        OrderTotalPrice += item.Quantity * item.ProductPrice;
+                        orderTotalPrice += item.Quantity * item.ProductPrice;
 
                         //Updating Inventory
                         stock.Stock = stock.Stock - item.Quantity;
                         if(stock.Stock == 0)
-                            stock.IsDeleted = 1;                     
+                            stock.IsDeleted = 1; 
 
                         _context.ProductWarehouses.Update(stock);
                     }
                     else
                     {
                         _logger.LogInformation($"Not product in stock in Warehouse {message.WarehouseId}");
+                        _context.Orders.Remove(order);
                         throw new OutOfStockException($"Product {stock.ProductId} - doens't have enough stock");
 
                     }            
 
                 }
 
-                order.TotalPrice = OrderTotalPrice;
+                order.TotalPrice = orderTotalPrice;
                 _context.Orders.Update(order);
 
                 await _context.SaveChangesAsync();
@@ -90,9 +91,10 @@ namespace ABCVendingMachine.Services.EventHandlers
             }
             catch(Exception ex)
             {
-                result = false;
                 _logger.LogInformation($"Exception {ex} occur");
+                throw ex;
             }
+
             return await Task.FromResult(result);
         }
     }
