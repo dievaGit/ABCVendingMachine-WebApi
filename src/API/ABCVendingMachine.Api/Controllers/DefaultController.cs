@@ -23,9 +23,9 @@ namespace ABCVendingMachine.Api.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<User> Get()
+        public IEnumerable<ProductWarehouse> Get()
         {
-            return _context.Users;
+            return _context.ProductWarehouses;
         }
     }
 }

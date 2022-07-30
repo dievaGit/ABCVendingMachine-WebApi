@@ -81,7 +81,7 @@ namespace ABCVendingMachine.DataAccess
                     context.ProductWarehouses.Add(new ProductWarehouse
                     {
                         WarehouseId = i,
-                        ProductId = random.Next(1, 5),
+                        ProductId = random.Next(1, 2),
                         Stock = random.Next(5, 10),
                         InventoryDay = DateTime.Now,
                         IsDeleted = 0

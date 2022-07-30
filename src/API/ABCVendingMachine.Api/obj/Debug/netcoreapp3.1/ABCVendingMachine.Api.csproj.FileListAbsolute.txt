@@ -59,3 +59,4 @@ C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.
 C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\obj\Debug\netcoreapp3.1\ABCVendingMachine.Api.dll
 C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\obj\Debug\netcoreapp3.1\ABCVendingMachine.Api.pdb
 C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\obj\Debug\netcoreapp3.1\ABCVendingMachine.Api.genruntimeconfig.cache
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\PostmanCollection\Vending Machine.postman_collection.json

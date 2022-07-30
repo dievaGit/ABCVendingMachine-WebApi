@@ -39,7 +39,8 @@ namespace ABCVendingMachine.Services.EventHandlers
                     CreatedAt = DateTime.Now,
                     IsDeleted = 0,
                 };
-                await _context.Orders.AddAsync(order);                
+                await _context.Orders.AddAsync(order);
+                await _context.SaveChangesAsync();
 
                 _logger.LogInformation("Preparing items ietails");
                 foreach (var item in message.Items)
