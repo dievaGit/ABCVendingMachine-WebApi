@@ -52,9 +52,9 @@ namespace ABCVendingMachine.Tests
                 VendingMachineId = 1,
                 WarehouseId = 1,
                 CreatedAt = DateTime.Now,
-                Items = new List<DetailOrderProduct>
+                Items = new List<DetailOrderProductComand>
                         {
-                        new DetailOrderProduct
+                        new DetailOrderProductComand()
                         {
                             OrderProductDetailId = 1,
                             ProductId = 1,

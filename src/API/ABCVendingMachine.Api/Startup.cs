@@ -31,13 +31,23 @@ namespace ABCVendingMachine.Api
         {
             services.AddControllers();
 
-            services.AddScoped<IWarehouseQueryService, WarehouseQueryService>();
-            services.AddScoped<IVendingMachineQueryService, VendingMachineQueryService>();
-            services.AddScoped <IOrderQueryService, OrderQueryService>();
-            services.AddScoped<IUserQueryService, UserQueryService>();
+            services.AddScoped<IWarehousesQueryService, WarehousesQueryService>();
+            services.AddScoped<IVendingMachinesQueryService, VendingMachinesQueryService>();
+            services.AddScoped <IOrdersQueryService, OrdersQueryService>();
+            services.AddScoped<IUsersQueryService, UsersQueryService>();
 
             services.AddMediatR(Assembly.Load("ABCVendingMachine.Services.EventHandlers"));
             services.AddDbContext<ApplicationDBContext>(context => { context.UseInMemoryDatabase("ABCVendingMachine"); });
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy", builder =>
+                    builder //WithOrigins(Configuration["AppSettings:CorsOriginUrl"])
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowAnyOrigin());
+            });
+            services.AddMvc();
         }
     
 
@@ -54,9 +64,17 @@ namespace ABCVendingMachine.Api
 
             DataConfiguration.AddData(context);
 
+            app.UseCors("CorsPolicy");
+
+            app.UseHttpsRedirection();
+
             app.UseRouting();
 
+            app.UseAuthentication();
+
             app.UseAuthorization();
+
+            //app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

@@ -75,17 +75,19 @@ namespace ABCVendingMachine.DataAccess
             //Adding ProductWarehouses to DB
              for (int i = 1; i <= 2; i++)
             {
-                var countProducts = random.Next(3, 4);
+                var id = 1;
+                var countProducts = random.Next(2, 3);
                 for (int j = 1; j <= countProducts; j++)
                 {
                     context.ProductWarehouses.Add(new ProductWarehouse
                     {
                         WarehouseId = i,
-                        ProductId = random.Next(1, 2),
+                        ProductId = id,
                         Stock = random.Next(5, 10),
                         InventoryDay = DateTime.Now,
                         IsDeleted = 0
                     });
+                    id++;
                 }
                 
             }

@@ -10,7 +10,7 @@ namespace ABCVendingMachine.Services.Queries.DTOs
         public int ProductId { get; set; }
         public int OrderId { get; set; }
         public int Quantity { get; set; }
+        public decimal ProductPrice { get; set; }
         public decimal TotalPrice { get; set; }
-        public byte IsDeleted { get; set; }
     }
 }

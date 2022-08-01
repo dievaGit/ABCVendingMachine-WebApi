@@ -1,5 +1,6 @@
 C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\PostmanCollection\Vending Machine.postman_collection.json
 C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\ABCVendingMachine.Api.exe
 C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\ABCVendingMachine.Api.deps.json
 C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\ABCVendingMachine.Api.runtimeconfig.json
@@ -8,6 +9,12 @@ C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.
 C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\ABCVendingMachine.Api.pdb
 C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\MediatR.dll
 C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\System.Web.Cors.dll
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\System.Web.Http.Cors.dll
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
 C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
@@ -28,7 +35,14 @@ C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.
 C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
@@ -59,4 +73,3 @@ C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.
 C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\obj\Debug\netcoreapp3.1\ABCVendingMachine.Api.dll
 C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\obj\Debug\netcoreapp3.1\ABCVendingMachine.Api.pdb
 C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\obj\Debug\netcoreapp3.1\ABCVendingMachine.Api.genruntimeconfig.cache
-C:\Users\Dieva\source\repos\ABC\New\ABCVendingMachine\src\API\ABCVendingMachine.Api\bin\Debug\netcoreapp3.1\PostmanCollection\Vending Machine.postman_collection.json
