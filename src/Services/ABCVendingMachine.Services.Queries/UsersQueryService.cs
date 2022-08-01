@@ -27,8 +27,8 @@ namespace ABCVendingMachine.Services.Queries
                             {
                                 UserId = u.UserId,
                                 UserName = u.UserName,
-                                Pass = u.Pass,
                                 Role = u.Role,
+                                Success = true
                             }).FirstOrDefault();
             
 
