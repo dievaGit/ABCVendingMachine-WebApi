@@ -11,5 +11,6 @@ namespace ABCVendingMachine.Models
         public int TruckId { get; set; }
         public string TruckName { get; set; }
         public int WarehouseId { get; set; }
+        public IEnumerable<Order> Orders { get; set; } = new List<Order>();
     }
 }
