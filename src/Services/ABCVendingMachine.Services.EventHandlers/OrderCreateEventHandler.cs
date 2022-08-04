@@ -44,7 +44,7 @@ namespace ABCVendingMachine.Services.EventHandlers
                 await _context.Orders.AddAsync(order);
                 await _context.SaveChangesAsync();
 
-                _logger.LogInformation("Preparing items ietails");
+                _logger.LogInformation("Preparing items details");
 
                 foreach (var item in message.Items)
                 {

@@ -72,6 +72,10 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[6.22.0, )"
@@ -152,6 +156,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
             }
           },
           "imports": [
@@ -214,6 +222,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -299,6 +313,10 @@
               "target": "Package",
               "version": "[6.22.0, )"
             },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[6.22.0, )"
@@ -372,6 +390,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
             }
           },
           "imports": [

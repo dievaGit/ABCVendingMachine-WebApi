@@ -13,21 +13,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.DataAccess", "04.DataAcc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.Tests", "05.Tests", "{AB37A0F3-D6E1-485A-B867-40EE5C1B54FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCVendingMachine.Api", "src\API\ABCVendingMachine.Api\ABCVendingMachine.Api.csproj", "{42AF64AC-0C9F-4028-9DC1-C41D24789F77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABCVendingMachine.Api", "src\API\ABCVendingMachine.Api\ABCVendingMachine.Api.csproj", "{42AF64AC-0C9F-4028-9DC1-C41D24789F77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCVendingMachine.Services.EventHandlers", "src\Services\ABCVendingMachine.Services.EventHandlers\ABCVendingMachine.Services.EventHandlers.csproj", "{AAC4B26B-D993-475E-B4F8-743615AB5557}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABCVendingMachine.Services.EventHandlers", "src\Services\ABCVendingMachine.Services.EventHandlers\ABCVendingMachine.Services.EventHandlers.csproj", "{AAC4B26B-D993-475E-B4F8-743615AB5557}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCVendingMachine.Services.Queries", "src\Services\ABCVendingMachine.Services.Queries\ABCVendingMachine.Services.Queries.csproj", "{E7467410-C39B-4D6E-B872-EFDB4EBFFE5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABCVendingMachine.Services.Queries", "src\Services\ABCVendingMachine.Services.Queries\ABCVendingMachine.Services.Queries.csproj", "{E7467410-C39B-4D6E-B872-EFDB4EBFFE5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCVendingMachine.Models", "src\Models\ABCVendingMachine.Models\ABCVendingMachine.Models.csproj", "{693AD4A6-B085-469F-B757-6A9D0B935751}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABCVendingMachine.Models", "src\Models\ABCVendingMachine.Models\ABCVendingMachine.Models.csproj", "{693AD4A6-B085-469F-B757-6A9D0B935751}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCVendingMachine.DataAccess", "src\DataAccess\ABCVendingMachine.DataAccess\ABCVendingMachine.DataAccess.csproj", "{51072DFF-2C90-4189-99CF-FEB477DCF4A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABCVendingMachine.DataAccess", "src\DataAccess\ABCVendingMachine.DataAccess\ABCVendingMachine.DataAccess.csproj", "{51072DFF-2C90-4189-99CF-FEB477DCF4A4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.Mapper", "06.Mapper", "{E7F39B35-AEA2-4B97-B5E8-2DCC02CC6FD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCVendingMachine.Mapper", "src\Mapper\ABCVendingMachine.Mapper\ABCVendingMachine.Mapper.csproj", "{34759338-B7BA-49E1-AB83-87C2929E6621}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABCVendingMachine.Mapper", "src\Mapper\ABCVendingMachine.Mapper\ABCVendingMachine.Mapper.csproj", "{34759338-B7BA-49E1-AB83-87C2929E6621}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCVendingMachine.Tests", "src\Tests\ABCVendingMachine.Tests\ABCVendingMachine.Tests.csproj", "{3215211B-F1F2-48DD-9271-9954B909D639}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABCVendingMachine.Tests", "src\Tests\ABCVendingMachine.Tests\ABCVendingMachine.Tests.csproj", "{3215211B-F1F2-48DD-9271-9954B909D639}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

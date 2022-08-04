@@ -21,6 +21,7 @@ namespace ABCVendingMachine.Services.Queries
         }
         public async Task<List<OrderDto>> GetAllOrdersAsync()
         {
+            _logger.LogInformation("--- Geting all orders started");
             var result = (from o in _context.Orders
                           where o.IsDeleted == 0
                           select new OrderDto

@@ -9,6 +9,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Debug;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,6 +40,14 @@ namespace ABCVendingMachine.Api
 
             services.AddMediatR(Assembly.Load("ABCVendingMachine.Services.EventHandlers"));
             services.AddDbContext<ApplicationDBContext>(context => { context.UseInMemoryDatabase("ABCVendingMachine"); });
+
+            var logger = new LoggerConfiguration()
+              .ReadFrom.Configuration(Configuration)
+               .WriteTo.Console()
+              .CreateLogger();
+            services.AddSingleton<Serilog.ILogger>(logger);
+
+          
 
             services.AddCors(options =>
             {
@@ -74,7 +84,7 @@ namespace ABCVendingMachine.Api
 
             app.UseAuthorization();
 
-            //app.UseAuthorization();
+            loggerFactory.AddSerilog();
 
             app.UseEndpoints(endpoints =>
             {

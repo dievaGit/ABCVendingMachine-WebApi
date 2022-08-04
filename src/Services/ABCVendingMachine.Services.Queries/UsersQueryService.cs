@@ -20,8 +20,9 @@ namespace ABCVendingMachine.Services.Queries
             _logger = logger;
         }
         public async Task<UserDto> UserLoginAsync(LoginDto login)
-        {  
-                var result = (from u in _context.Users
+        {
+            _logger.LogInformation("--- User Login basic autentication started");
+            var result = (from u in _context.Users
                             where login.UserName == u.UserName && login.Pass == u.Pass
                             select new UserDto
                             {

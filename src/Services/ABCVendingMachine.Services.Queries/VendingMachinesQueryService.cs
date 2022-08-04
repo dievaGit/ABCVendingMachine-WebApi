@@ -21,6 +21,7 @@ namespace ABCVendingMachine.Services.Queries
         }
         public async Task<List<VendingMachineDto>> GetAllVendingMachinesAsync()
         {
+            _logger.LogInformation("--- Geting all vending machines started");
             var result = (from vm in _context.VendingMachines
                           select new VendingMachineDto
                           {
@@ -34,6 +35,7 @@ namespace ABCVendingMachine.Services.Queries
 
         public async Task<List<ProductVendingMachineDto>> GetAllProductsByVendingMachineIdAsync(int vendingMachineId)
         {
+            _logger.LogInformation($"--- Geting all products in vending number {vendingMachineId} started");
             var result = (from pvm in _context.ProductVendingMachines
                           join p in _context.Products on pvm.ProductId equals p.ProductId
                           where pvm.VendingMachineId == vendingMachineId && pvm.IsDeleted == 0 && p.IsDeleted == 0
